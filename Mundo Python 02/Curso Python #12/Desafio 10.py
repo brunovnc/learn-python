@@ -27,4 +27,9 @@ elif jokenpo == 'papel' and computador == 'tesoura':
     print('A máquina foi a vencedora dessa rodada!')
 elif jokenpo == 'tesoura' and computador == 'papel':
     print('Você foi o vencedor dessa rodada!')
- 
+
+#ou
+    
+itens = ('Pedra', 'Papel', 'Tesoura')
+computador = random.randint(0, 2)
+print(f'A máquina escolheu: {(itens[computador])}')
