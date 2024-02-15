@@ -2,7 +2,6 @@ somaidade = 0
 média = 0
 velho = 0
 nomevelho = ''
-
 mulher20 = 0
 
 for p in range(1, 5):
