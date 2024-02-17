@@ -7,7 +7,7 @@ print(sorted(c))
 print(len(c))
 print(c.count(5)) #Quantas vezes aparece "5" na variável c.
 print(c.index(7)) #Para informar qual a posição que o "8" está na variável c.
-print(c.index(7, 6)) #Para informar qual a posição que "7" está após a posição 5 pois já sabemos que na posição 5 têm um "7".
+print(c.index(7, 6)) #Para informar qual a posição que o "7" está após a posição 5 pois já sabemos que na posição 5 têm um "7".
 
 print('-'*20)
 
