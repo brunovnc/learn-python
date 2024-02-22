@@ -20,7 +20,7 @@ valor = 0
 
 for n2 in range(1, 8):
     valor = int(input(f'Digite o {n2}° valor: '))
-    principal.append(valor)
+    principal2.append(valor)
     if valor % 2 == 0:
         principal2[0].append(valor)
     else:
