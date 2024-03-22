@@ -9,7 +9,7 @@ n2 = int(input('Digite um valor para calcular seu fatorial: '))
 contador = n2
 fator2 = 1 #Se começar por 0 a multiplicação vai dar 0.
 
-print(f'Calculando {n2}!...')
+print(f'Calculando {n2}...')
 
 while contador > 0:
     print(f'{contador}', end='') #End serve para não pular linhas, continuando na mesma.
